@@ -17,7 +17,7 @@ class Student():
 
     # HW: add method "CalculateAvgGrade()" grades -> calculate average
 
-    def CalculateAvgGrade(self):
+    def calculateAvgGrade(self):
         average_len = (len(self.grades))
         avg_grade = sum(self.grades) / average_len
         print(f"My Average Grade is:  {avg_grade:4.2f}")
